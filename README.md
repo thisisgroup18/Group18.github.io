@@ -1,6 +1,6 @@
 # [Project Title]
 
-Welcome to the repository for [Group Name]'s project for [Course Name]! This website is hosted using [GitHub Pages](https://pages.github.com/).
+Welcome to the repository for group 18's project for CISC 322! This website is hosted using [GitHub Pages](https://pages.github.com/).
 
 ## Table of Contents
 - [Project Overview](#project-overview)

@@ -15,7 +15,7 @@ This project focuses on [brief description of your project]. The website serves 
 
 ## Website Link
 
-You can view the live website hosted on GitHub Pages here: [https://your-username.github.io/your-repo-name](https://your-username.github.io/your-repo-name)
+You can view the live website hosted on GitHub Pages here: https://rileyspavor2.github.io/Group18.github.io
 You can preview the github page html here:
 https://htmlpreview.github.io/
 

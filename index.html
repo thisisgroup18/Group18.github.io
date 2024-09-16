@@ -6,6 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.team-info {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 20px;
+				margin-top: 20px;
+			}
+			.team-member {
+				flex: 1 1 300px;
+				padding: 10px;
+				border-left: 3px solid #ddd;
+			}
+			.team-member h3 {
+				margin: 0 0 5px 0;
+				font-size: 1.2em;
+			}
+			.team-member p {
+				margin: 0;
+				font-size: 0.9em;
+				color: #666;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -20,11 +42,11 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<ul class="links">
-					<li class="active"><a href="index.html">Home</a></li> <!-- Update with home page content -->
-					<li><a href="project.html">Project Overview</a></li> <!-- You can create a project overview page -->
-					<li><a href="reports.html">Reports</a></li> <!-- Link to reports -->
-					<li><a href="slides.html">Slides</a></li> <!-- Link to slides -->
-					<li><a href="presentation.html">Presentation</a></li> <!-- Link to presentation -->
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="project.html">Project Overview</a></li>
+					<li><a href="reports.html">Reports</a></li>
+					<li><a href="slides.html">Slides</a></li>
+					<li><a href="presentation.html">Presentation</a></li>
 				</ul>
 			</nav>
 
@@ -32,18 +54,52 @@
 			<section id="main">
 				<header class="major">
 					<h2>Welcome to Group 18's Project Site</h2>
-					<p>Here you can find all the relevant links to our course project.</p>
+					<p>Here you can find all the relevant links to our course project and meet our team members.</p>
 				</header>
-				<ul>
-					<li><a href="your-report-link.pdf">Download the Report</a></li>
-					<li><a href="your-slides-link.pdf">View Slides</a></li>
-					<li><a href="your-presentation-link.mp4">Watch the Presentation</a></li>
-				</ul>
+				
+				<div class="team-info">
+					<div class="team-member group-leader">
+						<h3>Harry</h3>
+						<p>21hjg2@queensu.ca</p>
+						<p>Group Leader</p>
+					</div>
+					<div class="team-member">
+						<h3>Ben</h3>
+						<p>22vhq@queensu.ca</p>
+						<p>Team Member</p>
+					</div>
+					<div class="team-member presenter">
+						<h3>Deniz</h3>
+						<p>21dha1@queensu.ca</p>
+						<p>Presenter</p>
+					</div>
+					<div class="team-member">
+						<h3>Riley</h3>
+						<p>Email not provided</p>
+						<p>Team Member</p>
+					</div>
+					<div class="team-member">
+						<h3>Jacob</h3>
+						<p>22js5@queensu.ca</p>
+						<p>Team Member</p>
+					</div>
+					<div class="team-member presenter">
+						<h3>Kurtis</h3>
+						<p>21kwm2@queensu.ca</p>
+						<p>Presenter</p>
+					</div>
+				</div>
 			</section>
 
 		</div>
 
 		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 
 	</body>

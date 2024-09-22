@@ -4,7 +4,7 @@ Welcome to the repository for group 18's project for CISC 322! This website is h
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Website Link](#https://thisisgroup18.github.io/Group18.github.io/)
+- [Website Link](#website-link)
 - [Repository Structure](#repository-structure)
 - [How to Contribute](#how-to-contribute)
 - [Contact](#contact)
